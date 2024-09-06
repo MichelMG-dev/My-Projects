@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+/* NAV */
+
+nav {
+    height:80px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-color:rgb(45, 45, 45);
+    border-bottom: 1px;
+}
+
+.logo {
+    height: 90px;
+    margin-left: 5px;
+}
+
+/* BODY */
+
+section.container {
+    margin:auto;
+    max-width: 85%;
+    border: 3px solid red;
+    background-color: rgba(218, 218, 218, 1.0);
+}
+
+body {
+    font-family: "Titillium Web", sans-serif;
+    background-image: url(images/fundo.png);    
+    background-attachment: fixed;
+    
+}
+
+p.nome-time-direita {
+    text-align: right;
+}
+
+p.nome-time-esquerda {
+    text-align: left;
+}
+
+div.p-esquerda, div.p-direita {
+    display: inline-block;
+    text-align: left;
+    vertical-align: top;
+}
+
+figure.imagem-carro {
+    display: inline-block;
+}
+
+figure.imagem-carro figcaption {
+    text-align: center;
+}
+
+figure.imagem-carro img {
+    max-height: 360px;
+    max-width: 480px;
+    min-height: 180px;
+    min-width: 240px;
+    object-fit: contain;
+    border-radius: 10px;
+}
+
+div.esquerda {
+    display: flex;
+    justify-content: left;
+    margin:20px;
+}
+
+div.direita {
+    display: flex;
+    justify-content: right;
+    margin:20px;
+}
+
+
